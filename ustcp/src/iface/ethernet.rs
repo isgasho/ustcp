@@ -268,7 +268,7 @@ impl<'b, 'c, 'e, DeviceT> InterfaceBuilder<'b, 'c, 'e, DeviceT>
 }
 
 #[derive(Debug, PartialEq)]
-enum Packet<'a> {
+pub enum Packet<'a> {
     None,
     #[cfg(feature = "proto-ipv4")]
     Arp(ArpRepr),
