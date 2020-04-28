@@ -93,6 +93,3 @@ required-features = ["std", "phy-tap_interface", "proto-ipv4", "socket-raw", "so
 [[example]]
 name = "dhcp_client"
 required-features = ["std", "phy-tap_interface", "proto-ipv4", "proto-dhcpv4", "socket-raw"]
-
-[profile.release]
-debug = 2
